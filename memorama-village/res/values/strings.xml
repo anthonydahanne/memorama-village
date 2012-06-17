@@ -16,7 +16,7 @@
 
 <resources>
 
-    <string name="project_home_url">http://code.google.com/p/regalandroid</string>
+    <string name="project_home_url">https://github.com/anthonydahanne/memorama-village</string>
     <string name="license">GNU General Public License v3</string>
     <string name="app_name">MemoramaVillage</string>
     <string name="current_version">Version : 1.1</string>
