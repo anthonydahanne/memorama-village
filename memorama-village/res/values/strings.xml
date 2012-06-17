@@ -1,0 +1,56 @@
+<!--
+     Copyright (c) 2012 Anthony Dahanne
+     This program is free software; you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation; either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <string name="project_home_url">http://code.google.com/p/regalandroid</string>
+    <string name="license">GNU General Public License v3</string>
+    <string name="app_name">MemoramaVillage</string>
+    <string name="current_version">Version : 1.1</string>
+    <string name="project_home">Project Home : </string>
+    <string name="about_title">About</string>
+    <string name="what_is_regalandroid">MemoramaVillage is a client to access the photos taken by the 4 cameras in Rue Sainte Catherine, Montreal, during the summer 2012\n
+        This software is downloading the photos from http://www.memorama.me BUT is an un-official client of this website. ( I have no relationships whatsoever with Aires Libres, or the authors of Memorama.me)\n
+        This software has been developed in the first place because http://www.memorama.me is not *easily* usable from a mobile phone, so I decided to create one client for Android.\n\n
+        
+                It is an open source software (GPL v3).\n\n
+                This program is distributed in the hope that it will be useful,
+     			but WITHOUT ANY WARRANTY; without even the implied warranty of
+     			MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+     			GNU General Public License for more details.
+	</string>
+   	<string name="please_wait">Please wait...</string>
+	<string name="problem">Problem</string>
+	<string name="ok">OK</string>
+    <string name="camera1">Cam1 - Visitation</string>
+    <string name="camera2">Cam2 - St André</string>
+    <string name="camera3">Cam3 - Wolf</string>
+    <string name="camera4">Cam4 - Champlain</string>
+    <string name="search">Search</string>
+    <string name="loading_metadata">Loading photo info</string>
+    <string name="loading_latest_photo">Loading latest photo from Cam.</string>
+    <string name="no_latest_photo">No latest photo</string>
+    <string name="downloading_photo">Downloading photo</string>
+    <string name="about">About</string>
+    <string name="did_you_find_a_bug">Did you find a bug ?</string>
+    <string name="author">Author</string>
+    <string name="author_name">Anthony Dahanne</string>
+    <string name="please_report_it">Please report it !</string>
+    <string name="cameras">Switch camera</string>
+    <string name="choose_action">Which app. to use to share the photo?</string>
+    <string name="share_image_title">Share...</string>
+
+</resources>

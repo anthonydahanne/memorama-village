@@ -1,0 +1,84 @@
+    <section id="image">
+    	<span class="close"></span>
+    
+    	<div class="frame">
+    		<h3 id="title"></h3>
+    	</div>
+    
+    	<a href="image.php?id=15503" class="prev modal"></a>
+    	
+    	<img src="images/2012/06/15/camera-2_2012-06-15_19-51-13_644.0_large.jpeg" alt="" />
+    
+    	<a href="image.php?id=15500" class="next modal"></a>
+    	
+    	<div class="actions">
+    		<ul class="tabs">
+    			<li class="tab partagez">	<a href="#partagez"><span></span>partagez</a></li>
+    			<li class="tab envoyez">	<a href="#envoyez"><span></span>envoyez</a></li>
+    			<li class="tab aimez">		<a href="#aimez"><span></span>vous aimez!</a></li>
+    			<li class="tab rapportez">	<a href="#rapportez"><span></span>rapportez</a></li>
+    		</ul>
+    
+    		<div class="panes">
+    			<div class="pane" id="partagez">
+    
+    				<form action="inc/ajax.php" method="post">
+    					<input type="hidden" name="action" value="share">
+    					<input type="hidden" name="id" value="15501">
+    					<p>Le titre de votre carte postale:</p>
+    					<textarea name="title"></textarea>
+    
+    					<input type="hidden" name="social" value="" id="social">
+    
+    					<input type="submit" value="fb">
+    					<input type="submit" value="twitter">
+    					<script>$(function(){ $('#partagez input[type=submit]').click(function(){ $('#social').val( $(this).val() ) }) });</script>
+    				</form>
+    			</div>
+    
+    			<div class="pane" id="envoyez">
+    				<form action="inc/ajax.php">
+    					<input type="hidden" name="action" value="email">
+    					<input type="hidden" name="id" value="15501">
+    
+    					<p>Adresse courriel du destinataire:</p>
+    					<input type="text" name="email">
+    
+    					<p>Votre nom:</p>
+    					<input type="text" name="name">
+    
+    					<p>Le titre de votre carte postale:</p>
+    					<textarea name="title"></textarea>
+    
+    					<input type="submit" value="Envoyer">
+    				</form>
+    			</div>
+    
+    			<div class="pane" id="aimez">
+    				<form action="inc/ajax.php">
+    					<input type="hidden" name="action" value="like">
+    					<input type="hidden" name="id" value="15501">
+    
+    					<div style="text-align:center;padding:42px 0"><input type="submit" value="Aimer"></div>
+    				</form>
+    			</div>
+    
+    			<div class="pane" id="rapportez">
+    				<form action="inc/ajax.php">
+    					<input type="hidden" name="action" value="report">
+    					<input type="hidden" name="id" value="15501">
+    
+    					<!-- <h4>VOUS SOUHAITEZ RETIRER CETTE PHOTO DU MEMORAMA</h4> -->
+    
+    					<h4><input type="checkbox" name="ma-photo"> VOUS SOUHAITEZ RETIRER MA PHOTO</h4>
+    					<h4><input type="checkbox" name="inapproprie"> CETTE PHOTO A DU CONTENU INAPPROPRIÉ</h4>
+    					<h4><input type="checkbox" name=""> AUTRE <input type="text" name="autre" style="width:50%"></h4>
+    
+    					<input type="submit" value="Soumettre">
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+    
+    </section>
+    <script>$(function(){ $('.modal').overlay(); })</script>

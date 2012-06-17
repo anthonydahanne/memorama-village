@@ -1,0 +1,48 @@
+<!--
+     Copyright (c) 2012 Anthony Dahanne
+     This program is free software; you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation; either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<resources>
+
+    <string name="project_home">Projet hébergé sur :</string>
+    <string name="about_title">A propos</string>
+    <string name="what_is_regalandroid">MemoramaVillage est une application pour accéder aux photos prises par les 4 appareils photos automatiques de la Rue Sainte Catherine å Montréal, pendant l\'été 2012\n
+        Cette application télécharge les photos à partir du site http://www.memorama.me mais n\'a par ailleurs AUCUN lien avec ce dernier. (Je n\'ai aucune relations avec les dévéloppeurs de Memorama.me, ni avec les organisateurs d\'Aires Libres)\n
+        J\'ai développé cette application puisque le site memorama.me est difficilement accessible å partir d\'un téléphone portabale; avec cette application, je souhaite le rendre plus accessible aux utilisateurs d\'Android (dont je fais partie)\n\n
+        
+                C\'est un logiciel libre (GPL v3).\n\n
+                This program is distributed in the hope that it will be useful,
+     			but WITHOUT ANY WARRANTY; without even the implied warranty of
+     			MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+     			GNU General Public License for more details.
+	</string>
+	<string name="please_wait">Patientez svp.</string>
+    <string name="problem">Problème !</string>
+    <string name="search">Recherche</string>
+    <string name="loading_metadata">Chargement des infos de la photo...</string>
+    <string name="loading_latest_photo">Chargement de la dernière photo de Cam.</string>
+    <string name="no_latest_photo">Pas de photo plus récente</string>
+    <string name="downloading_photo">Téléchargement de la photo en cours ...</string>
+    <string name="about">A propos</string>
+    <string name="did_you_find_a_bug">Vous avez trouvé une anomalie ?</string>
+    <string name="author">Auteur</string>
+    <string name="please_report_it">Please report it !</string>
+    <string name="cameras">Switch camera</string>
+    <string name="choose_action">Avec quelle application partager la photo ?</string>
+    <string name="share_image_title">Partager...</string>
+    
+
+</resources>

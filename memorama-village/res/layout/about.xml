@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2012 Anthony Dahanne
+     This program is free software; you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation; either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/aboutscrollview"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<TextView android:text="@string/app_name" android:id="@+id/versionName"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingLeft="15px" android:paddingTop="15px"
+				android:textStyle="bold" android:layout_gravity="center_vertical"
+				android:textColor="#ffffff" />
+			<TextView android:text="@string/current_version" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingLeft="15px"
+				android:textColor="#ffffff" />
+			<TextView android:text="@string/project_home"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="15px" android:paddingLeft="15px"
+				android:textStyle="bold" android:textColor="#ffffff" />
+			<TextView android:text="@string/project_home_url" android:autoLink="web"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				 android:textColorLink="#ffffff"
+				android:paddingLeft="15px" android:textSize="12sp"
+				android:textColor="#ffffff" />
+			<TextView android:text="License: " android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingTop="15px"
+				android:paddingLeft="15px" android:textStyle="bold"
+				android:textColor="#ffffff" />
+			<TextView android:text="@string/license"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingLeft="15px" android:textColor="#ffffff" />
+			<TextView android:text="http://www.gnu.org/licenses/gpl.html"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:autoLink="web" android:textColorLink="#ffffff"
+				android:paddingLeft="15px" android:textSize="12sp"
+				android:textColor="#ffffff" />
+			<TextView android:text="@string/author" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingTop="15px"
+				android:paddingLeft="15px" android:textStyle="bold"
+				android:textColor="#ffffff" />
+			<TextView android:text="@string/author_name"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingLeft="15px" android:textColor="#ffffff" />
+			<TextView android:text="http://blog.dahanne.net/about" android:textColorLink="#ffffff"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingLeft="15px" android:textColor="#ffffff" android:autoLink="web" />
+			<TextView android:text="@string/did_you_find_a_bug" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingTop="15px"
+				android:paddingLeft="15px" android:textStyle="bold"
+				android:textColor="#ffffff" />
+			<TextView android:text="@string/please_report_it"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingLeft="15px" android:textColor="#ffffff" />
+			<TextView android:text="@string/project_home_url" android:textColorLink="#ffffff"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingLeft="15px" android:textColor="#ffffff" android:autoLink="web" />
+			<TextView android:paddingTop="15px"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingLeft="15px" android:textColor="#ffffff" android:text="@string/what_is_regalandroid"
+				android:autoLink="web"  android:textColorLink="#ffffff" />
+				
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
